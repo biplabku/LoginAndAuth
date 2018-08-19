@@ -25,3 +25,20 @@ biplab = []
 biplab = names
 
 print(biplab)
+
+## tutorial for 
+### Tuple
+
+# its just like a list but instead of using square brackets we will use paranthesis
+dimensions  = (100,20)
+print(dimensions)
+print(dimensions[0])
+
+# tuple values cant be changed by assinging
+# python tells use we cant assign  a new value to an item in a tuple
+
+# overriding a tuple is allowed
+
+# example dictionary 
+alien = {'color':'green', 'points':5}
+print(alien['points'])
