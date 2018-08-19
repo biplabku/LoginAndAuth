@@ -10,3 +10,13 @@ favorite_language = ' python '
 print(favorite_language)
 favorite_language = favorite_language.rstrip();
 print(favorite_language)
+print "favorite_language"
+
+
+age = 27
+print ("my age is " + str(age) + ".")
+
+## List learning tutorials
+
+names = ['Biplab', 'Binita', "hello"]
+print(names)
