@@ -20,3 +20,8 @@ print ("my age is " + str(age) + ".")
 
 names = ['Biplab', 'Binita', "hello"]
 print(names)
+
+biplab = []
+biplab = names
+
+print(biplab)
