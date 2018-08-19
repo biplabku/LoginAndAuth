@@ -42,3 +42,16 @@ print(dimensions[0])
 # example dictionary 
 alien = {'color':'green', 'points':5}
 print(alien['points'])
+
+# how to loop over the dicitionary
+for key, value in alien.items():
+	print(key)
+	#print(value)
+
+
+
+def describe_pet(pet_name, type_an='dog'):
+	print("\nI have a " + type_an + ".")
+	print("My " + type_an + "'s name is " + pet_name.title() + ".")
+
+describe_pet(pet_name='willie')
